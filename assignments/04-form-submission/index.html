@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+  <title>FORMS</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <section class="forming-an-opinion">
+    <h1 id="start-of-page">Form submissions</h1>
+    <h2>GET example</h2>
+    <hr>
+    <form action="http://www.example.com" method="get">
+      <div>
+        <label for="state">What state do you live in?</label>
+        <input name="state" type="text">
+      </div>
+      <div>
+        <label for="city">What city do you live in?</label>
+        <input name="city" type="text">
+      </div>
+      <div>
+        <button>Send my feedback</button>
+      </div>
+    </form>
+    <h2>POST example</h2>
+    <hr>
+    <form action="http://www.example.com" method="post">
+      <div>
+        <label for="state">What state do you live in?</label>
+        <input name="state" type="text">
+      </div>
+      <div>
+        <label for="city">What city do you live in?</label>
+        <input name="city" type="text">
+      </div>
+      <div>
+        <button>Send my feedback</button>
+      </div>
+    </form>
+  </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

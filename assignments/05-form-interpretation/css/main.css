@@ -1,0 +1,29 @@
+.forming-an-opinion {
+  margin: 25px;
+}
+
+fieldset {
+  padding: 25px;
+}
+
+input, button, select, textarea {
+  display: block;
+  margin-bottom: 15px;
+}
+
+#textarea-1, #the_content {
+  height: 200px;
+  width: 500px;
+}
+
+input[type=text].red-text {
+  color: red;
+}
+
+label {
+  padding-bottom: 8px;
+}
+
+.checkbox input, .checkbox label, .radio input, .radio label {
+  display: inline;
+}
